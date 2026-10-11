@@ -1,0 +1,33 @@
+AI Voice Models — Voice Model Terms
+Last checked: {{DATE}}
+
+Voices are downloaded separately on request from the same distributor, wok000/vcclient_model. Model weights are not included in the main application ZIP. Each voice's source link opens its own terms.
+
+Catalog: Tsukuyomi-chan; Amitaro 40 kHz, Amitaro 16 kHz, Amitaro 16 kHz No F0; AISO Howatto, Kakkoii, Sarasara, Sittori and Syakitto.
+
+1. Tsukuyomi-chan
+Voice data: Tsukuyomi-chan Corpus, CV. Rei Yumesaki (夢前黎).
+https://tyc.rei-yumesaki.net/material/corpus/
+Model terms: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/tsukuyomi-chan/terms_of_use.txt
+
+Informational translation — the original Japanese terms reproduced below and the rights holder's referenced terms control.
+
+• The model may only be used on VCClient.
+• The model and converted voice must not be used to criticize or attack people, as defined by the Tsukuyomi-chan character license.
+• They must not be used to call for support for or opposition to a particular political, religious or ideological position.
+• Intense content must not be published without appropriate audience/access separation.
+• Outputs must not be published under permission for other people to reuse them as material. The original terms separately allow distributing or selling works intended for listening/enjoyment; the other restrictions still apply.
+
+The original image credits are retained: Tsukuyomi-chan © Rei Yumesaki; illustration by えみゃコーラ (Emya Cola). This document does not claim endorsement by the rights holders or unrestricted use permission.
+
+2. Amitaro and its 16 kHz variants
+Voice source: Amitaro / あみたろの声素材工房 — https://amitaro.net/
+Model terms: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro/terms_of_use.txt
+16 kHz variants: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro16k/terms_of_use.txt
+Rights holder's terms: https://amitaro.net/voice/voice_rule/
+The original terms are reproduced below. These models have their own terms, separate from Tsukuyomi-chan.
+
+3. AISO female voices
+Model creator: Tsuruno (鶴乃); distributor: Chihaya Jinja (ちはや神社).
+Source description and terms: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_chihaya_jinja/description.txt
+The original description and license notice for Howatto, Kakkoii, Sarasara, Sittori and Syakitto are reproduced below.

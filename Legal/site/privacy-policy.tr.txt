@@ -1,0 +1,46 @@
+Ses Stüdyosu — Gizlilik Politikası
+
+Sürüm: 1.0 • Son güncelleme: 2026-10-11
+Yayıncı: Ege
+Gizlilik iletişimi: egeroze4@gmail.com
+
+1. Kapsam
+Bu politika Ses Stüdyosu'nun Windows masaüstü uygulamasını, ses testini, ses kütüphanesini ve isteğe bağlı VCClient 1.5.3.18a yapay zekâ entegrasyonunu açıklar. Uygulamada kullanıcı hesabı, reklam SDK'sı, kullanım analitiği, bulut senkronizasyonu veya yayıncıya otomatik hata raporlama özelliği yoktur.
+
+2. Mikrofon ve ses dosyaları
+Ana ses aktarımını veya mikrofon kullanan AI testini başlattığınızda seçtiğiniz mikrofon açılır. Ses geçici bellek tamponlarında işlenir. Ana aktarım mikrofonu, efektleri ve sizin seçip çaldığınız ses dosyalarını seçilen VB-CABLE çıkışına gönderir. Normal dinleme testi sanal kablonun kayıt ucunu dinler; bağımsız AI testi işlenmiş mikrofon sesini seçtiğiniz dinleme cihazına gönderir. Klasik efektler bilgisayarınızda çalışır.
+
+AI etkinleştirildiğinde ses parçaları aynı bilgisayarda çalışan VCClient işlemine HTTPS üzerinden 127.0.0.1:18991 adresinden iletilir. İstemci, başlatılan motorun sertifikasını doğrular ve proxy kullanmaz. Uygulama sesinizi bir bulut çıkarım hizmetine, yayıncıya veya bir model eğitimi hizmetine yüklemez. Uygulamada mikrofonu ses dosyasına kaydetme özelliği yoktur; AI hazırlanırken motorun ses kaydı ayarı kapatılır. Bu, işletim sistemi veya başka yazılımların kendi kayıt davranışlarını kapsamaz.
+
+Önemli mevcut sınırlama: bu VCClient sürümünün sunucusu yalnızca localhost'a bağlanmaz; tüm IPv4 ağ arayüzlerinde dinler ve ayrı kullanıcı kimlik doğrulaması sağlamaz. Ulaşılabilirliği Windows güvenlik duvarına ve ağınıza bağlıdır. Başka yerel işlemler veya izin verilen ağ istemcileri motorun arayüzlerine erişebilir, ayarlarını değiştirebilir ve motorun sunduğu dosyalara ulaşabilir. İstemcinin yerel bağlantısı, motorun ağdan erişime kapalı olduğu anlamına gelmez. Bu sürüm için tam ağ izolasyonu iddiasında bulunmuyoruz.
+
+3. İnternet bağlantıları ve diğer uygulamalar
+AI'ı etkinleştirme veya AI testi başlatma eyleminiz, motor eksikse yaklaşık 3,3 GB'lık paketin Hugging Face'ten ve yönlendirdiği dosya dağıtım sunucularından HTTPS ile indirilmesini başlatır. VCClient eksik model ve yardımcı ağırlıkları Hugging Face'ten; eksik Whisper ağırlığını openaipublic.azureedge.net adresinden indirebilir. Motor açılışlarında örnek model kataloglarını yenilemek için Hugging Face'e tekrar bağlanabilir; dolayısıyla ağ kullanımı ilk kurulumla sınırlı değildir. Bu indirme isteklerinin amacı dosya edinmektir; uygulama mikrofon sesini bu isteklere eklemez.
+
+İndirme sunucuları IP adresinizi, istenen dosyanın adresini, istek zamanını ve HTTP istemci bilgilerini görebilir. Bu hizmetler ve dağıtım ağları verileri kendi politikalarına ve faaliyet gösterdikleri ülkelere göre işler. Uygulama bu hizmetlerde hesap açmanızı veya oturum açmanızı istemez. Harici kaynak/lisans bağlantılarına tıklarsanız varsayılan tarayıcınız açılır; ziyaret ettiğiniz sitenin gizlilik ve çerez uygulamaları geçerlidir. Belgeleri uygulama içinde okumak internet bağlantısı gerektirmez.
+
+VB-CABLE kurucusu uygulama paketinden yerel geçici bir klasöre açılır ve yalnızca sizin başlattığınız kurulum/kaldırma işlemiyle, Windows yönetici onayı kullanılarak çalışır. VB-CABLE'dan sesi alan Discord, oyun, yayın veya kayıt uygulamaları sesi kendi ayarlarınıza göre kaydedebilir veya internete gönderebilir. Bu işlemler ilgili uygulamaların denetimindedir.
+
+4. Bilgisayarınızda saklanan bilgiler
+• %LOCALAPPDATA%\SesStudyosu\settings.json: mikrofon/çıkış cihazı adları, tepsiye küçültme ve tepside başlama tercihleri.
+• Aynı klasörde appearance.json ve background-*.png: görünüm tercihleri ve seçtiğiniz arka plan resminin işlenmiş bir kopyası. Görünüm kaydedildiğinde önceki yönetilen resim silinmeye çalışılır; kaynak resminiz silinmez.
+• Uygulamanın çalıştığı klasörde soundboard_config.xml: eklediğiniz seslerin görünen adları ve tam dosya yolları. Ses dosyalarının kendisi kütüphaneye kopyalanmaz. Dosya yolları Windows kullanıcı adınızı içerebilir.
+• AI motoru normalde %LOCALAPPDATA%\SesStudyosu\AiRuntime altında tutulur. Geliştirme/taşınabilir kurulumlarda uygulama yakınındaki AiRuntime klasörü de kullanılabilir. Motor, model dosyaları, kataloglar, stored_setting.json, geçici dosyalar, yerel TLS sertifika/anahtarları ve çalışma günlükleri saklayabilir. Uygulamanın tuttuğu ses-ai.log yaklaşık 1 MB eşiği aşıldıktan sonraki yazmada sıfırlanır; motorun vcclient.log gibi ayrı günlüklerinin aynı sınıra veya otomatik silinmeye tabi olduğu garanti edilmez. Günlükler cihaz/GPU bilgileri, yerel yollar, zamanlar ve hata ayrıntıları içerebilir; otomatik olarak yayıncıya gönderilmez.
+• İptal edilen AI indirmesi devam edebilmek için .part dosyası bırakabilir. Başarılı kurulum arşivi silmeye çalışır; önceki eksik kurulumlar yedek olarak kalabilir.
+• Windows ile başlatmayı seçerseniz geçerli Windows kullanıcısının Run kayıt anahtarına uygulamanın yolu yazılır; kapattığınızda uygulamaya ait kayıt kaldırılır.
+
+Bu yerel dosyalar kullanıcı tercihlerini ve özellikleri sağlamak için tutulur; uygulama bunlara ayrı bir şifreleme katmanı uygulamaz. Erişim Windows dosya izinlerine ve cihaz güvenliğinize bağlıdır. AI paketi SHA-256 ile doğrulanır; yerel istemci bağlantısında sertifika eşleştirmesi kullanılır. Bunlar yukarıdaki motorun ağ erişimi sınırlamasını ortadan kaldırmaz.
+
+5. Kontroller, saklama süresi ve silme
+Ana aktarım için Durdur'u, bağımsız test için testi durdurma düğmesini kullanın. AI'ı kapatmak ana aktarımın klasik mikrofon akışını durdurmak zorunda değildir; tüm sesi durdurmak için ana Durdur'u kullanın. Varsayılan ayarda pencerenin X düğmesi uygulamayı tepsiye gizler ve ses devam edebilir. Tam çıkış için Uygulamayı kapat/tepside Çıkış seçeneğini kullanın. Windows'un mikrofon gizlilik ayarlarıyla masaüstü uygulamalarının mikrofon erişimini denetleyebilirsiniz.
+
+Kütüphaneden kaldırma kaynak ses dosyasını silmez. Uygulamayı tamamen kapattıktan sonra soundboard_config.xml dosyasını silerek kütüphane listesini; settings.json, appearance.json ve background-*.png dosyalarını silerek ilgili tercihleri temizleyebilirsiniz. AI motorunu/model/günlüklerini kaldırmak için kullanılan AiRuntime klasörünü uygulama kapalıyken silebilirsiniz; sonraki AI kullanımı yeniden indirme gerektirebilir. Uygulamayı kaldırmak bu ayrı verileri veya VB-CABLE sürücüsünü otomatik olarak kaldırmayabilir. Sürücü için kendi kaldırma işlemini kullanın. Windows ile başlatmayı uygulamayı kaldırmadan önce Ayarlar'dan kapatın.
+
+Sabit bir süre sonunda tüm verileri otomatik silme özelliği yoktur. Veriler, yukarıdaki değiştirme/silme davranışları dışında siz silene kadar kalır. Yayıncının sunucusunda uygulama hesabı veya ses arşiviniz bulunmaz. İletişime kendiniz bilgi gönderirseniz, gönderdiğiniz bilgiler ve e-posta adresiniz talebinizi yanıtlamak için seçtiğiniz iletişim kanalı üzerinden işlenir. Gereksiz ses kayıtları veya hassas günlükler göndermeyin.
+
+6. Haklar, çocuklar ve değişiklikler
+Uygulanabilir hukuk kapsamında bilgi, erişim, düzeltme, silme ve itiraz gibi haklarınızla ilgili taleplerinizi yukarıdaki iletişim adresine iletebilirsiniz. Yalnızca cihazınızda bulunan verilere yayıncı uzaktan erişemez; bu veriler için yukarıdaki yerel kontroller geçerlidir. Uygulama çocuklardan bilgi toplamaya yönelik ayrı bir özellik içermez; kullanımda geçerli yaş ve izin kurallarına uyulmalıdır. Uygulamanın davranışı değişirse bu politika ve tarihi güncellenir; yasanın gerektirdiği durumda ayrıca bilgilendirme veya izin sağlanır.
+
+Microsoft Store ve Windows kendi hizmetleri için veri işleyebilir; bu politika onların politikalarının yerine geçmez.
+Hugging Face gizliliği: https://huggingface.co/privacy
+Microsoft gizliliği: https://www.microsoft.com/privacy/privacystatement

@@ -1,0 +1,32 @@
+Ses Stüdyosu — Kullanım Koşulları (Terms of Service)
+
+Sürüm: 1.0 • Son güncelleme: 2026-10-11
+Yayıncı: Ege
+İletişim: egeroze4@gmail.com
+
+1. Uygulama ve kapsam
+Ses Stüdyosu; mikrofon sesini işleme, efekt uygulama, seçilen ses dosyalarını çalma, sanal ses kablosuna aktarma ve isteğe bağlı yerel AI ses dönüştürme özellikleri sunan bir Windows masaüstü uygulamasıdır. Bu koşullar uygulamanın kullanımını açıklar. Uygulamayı kullanmadan önce koşulları ve Gizlilik Politikası'nı okuyun. Koşulları kabul etmiyorsanız kullanmayı bırakın ve uygulamayı kaldırın. Bu belge ek bir hesap, abonelik veya ödeme yükümlülüğü oluşturmaz; uygulamada hesap veya uygulama içi ödeme sistemi yoktur. Varsa edinme bedeli ve mağaza işlemleri ilgili mağaza kaydında ayrıca gösterilir.
+
+2. Kullanım izni ve haklar
+Yayıncıya ait uygulama kodu ve belgeleri, dağıtım paketinde ve kaynak kod deposunda bulunan MIT Lisansı ile sunulur. Bu lisansın kullanım, kopyalama, değiştirme ve dağıtım izinlerine bu koşullarla ek kısıtlama getirilmez. Uygulamadaki üçüncü taraf yazılımlar, modeller, sürücüler ve içerikler kendi lisanslarına tabidir. Bu koşullar üçüncü taraf lisanslarının verdiği hakları, açık kaynak haklarını veya kanundan doğan hakları kısıtlamaz; ilgili bileşen için çelişki olduğunda onun lisansı uygulanır. Üçüncü Taraf Bildirimleri ve Ses Modeli Koşulları uygulama içinden okunabilir. Başkalarının marka, ses, görsel veya içerik hakları size devredilmez.
+
+3. Sesler, modeller ve sorumluluğunuz
+Kullandığınız, çaldığınız veya paylaştığınız ses ve dosyalar için gerekli haklara ve izinlere sahip olmalısınız. Başkalarını hukuka aykırı biçimde taklit etmek, dolandırmak, taciz etmek veya izinsiz kişisel bilgi açıklamak için uygulamayı kullanmayın. Kayıt ve paylaşım sırasında ilgili kişilerin haklarına, geçerli hukuka ve hedef platformun kurallarına uyun. Yayıncı ses dosyalarınız veya ürettiğiniz çıktılar üzerinde bu koşullarla mülkiyet talep etmez.
+
+Tsukuyomi-chan modeli yalnızca VCClient üzerinde kullanım şartına tabidir. Model ve çıktılar için saldırı/eleştiri, belirli siyasi/dinî/ideolojik görüşe destek veya karşıtlık çağrısı, uygun erişim ayrımı olmadan güçlü/rahatsız edici içerik yayımlama ve başkalarına tekrar kullanılabilir ses materyali olarak sunma konularında ek sınırlamalar vardır. Tam ve belirleyici koşulları Ses Modeli Koşulları bölümünden ve hak sahibinin bağlantılarından okuyun. Uygulamanın bulunması, bu hak sahiplerinin onayı veya sınırsız ticari kullanım izni anlamına gelmez.
+
+4. Teknik gereksinimler ve üçüncü taraflar
+AI bileşeni isteğe bağlıdır; indirme, disk alanı, uyumlu 64 bit Windows ve bu dağıtım için NVIDIA/CUDA gereksinimleri vardır. İlk kurulum ve model/katalog edinme sırasında internet kullanılabilir. Model kalitesi, gecikme ve cihaz uyumluluğu değişebilir. Ses dönüştürme kimlik gizleme veya anonimlik garantisi vermez.
+
+VB-CABLE, VB-Audio / Vincent Burel tarafından sunulan ayrı bir donationware üründür. Kaynağı https://www.vb-cable.com/ adresidir; bağış ve lisans desteği teşvik edilir. Kurulum/kaldırma yönetici onayı ve bazen yeniden başlatma gerektirebilir. Ürün ve dağıtım koşulları https://vb-audio.com/Services/licensing.htm adresindedir. Sürücü, model ve diğer üçüncü taraf hizmetlerinin lisansları bu belgeyle değiştirilmez.
+
+Gizlilik Politikası'nda belirtilen mevcut AI motoru ağ erişimi sınırlamasını dikkate alın. Kullanmadığınızda AI'ı kapatın. Dinleme sırasında geri besleme ve yüksek ses oluşmaması için uygun ses düzeyi ve kulaklık kullanın. Ana pencereyi kapatmak varsayılan olarak tepsiye gizleyebilir; tam çıkış için Uygulamayı kapat seçeneğini kullanın.
+
+5. Gizlilik
+Mikrofon işleme, yerel dosyalar, isteğe bağlı indirmeler, günlükler ve silme seçenekleri ayrı Gizlilik Politikası'nda açıklanır. Bu koşullar, gerekli hallerde ayrıca alınması gereken kişisel veri izninin yerine geçmez. Uygulama içine erişilebilir belgeleri okumak için internet veya hesap gerekmez.
+
+6. Kullanılabilirlik ve sorumluluk
+Uygulama, hukukun izin verdiği ölçüde mevcut haliyle sunulur. Kesintisiz veya hatasız çalışma, belirli bir ses sonucu ya da her cihazla uyumluluk taahhüt edilmez. Yayıncının sorumluluğu yalnızca uygulanabilir hukukun izin verdiği ölçüde sınırlanabilir. Bu belge zorunlu tüketici haklarını, kanuni garantileri veya hukuken hariç tutulamayan sorumluluğu kaldırmaz. Mağaza üzerinden edinmeye ilişkin iptal/iade hakları ilgili mağaza koşullarına ve zorunlu hukuka tabidir.
+
+7. Kullanımı bırakma ve değişiklikler
+İstediğiniz zaman kullanımı bırakabilirsiniz. Uygulamayı kaldırmak yerel tercihleri, AI indirmelerini veya ayrı sürücüyü tamamen silmeyebilir; Gizlilik Politikası'ndaki silme adımlarını izleyin. Özellik veya koşul değişikliklerinde bu belgenin tarihi/sürümü güncellenir. Gelecekteki değişiklikler geçmişteki kullanımlarınız için geriye dönük yeni yükümlülük yaratmaz; gerektiğinde ek bildirim ve izin sağlanır. Sorular için yukarıdaki iletişim adresini kullanın.

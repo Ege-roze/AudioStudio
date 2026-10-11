@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><title>Audio Studio (Ses St&#252;dyosu) — Privacy Policy</title>
+<style>body{max-width:880px;margin:auto;padding:28px 20px;color:#233047;background:#fff;font:17px/1.65 system-ui,sans-serif}a{color:#5141a8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}nav{border-bottom:1px solid #ddd;padding-bottom:16px}@media print{nav{display:none}body{max-width:none;padding:0;font-size:11pt}}</style>
+</head><body><nav><a href="index.html">Ses Stüdyosu / Audio Studio</a> · <a href="privacy-policy.en.txt">TXT</a></nav><main><pre>Audio Studio (Ses St&#252;dyosu) — Privacy Policy
+
+Version: 1.0 • Last updated: 2026-10-11
+Publisher: Ege
+Privacy contact: egeroze4@gmail.com
+
+1. Scope
+This policy describes the Windows desktop application, audio tests, sound library and optional VCClient 1.5.3.18a AI integration. The application has no user account, advertising SDK, usage analytics, cloud synchronization or automatic error reporting to the publisher.
+
+2. Microphone and audio files
+Starting the main stream or a microphone-based AI test opens your selected microphone. Audio is processed in temporary memory buffers. The main stream sends microphone audio, effects and sound files you select and play to the selected VB-CABLE output. The ordinary listening test captures the virtual cable&#39;s recording endpoint; the independent AI test sends converted microphone audio to your selected listening device. Classic effects run on your computer.
+
+When AI is enabled, audio blocks are sent to a VCClient process on the same computer through HTTPS at 127.0.0.1:18991. The client verifies the launched engine&#39;s certificate and bypasses proxies. The application does not upload your audio to a cloud inference service, the publisher or a model training service. It has no microphone-to-file recording feature and switches the engine&#39;s audio recording setting off during AI preparation. This does not cover recording by your operating system or other software.
+
+Current limitation: this VCClient version listens on all IPv4 network interfaces, not exclusively on localhost, and provides no separate user authentication. Reachability depends on your Windows firewall and network. Other local processes or permitted network clients may reach the engine&#39;s interfaces, change settings and access files exposed by the engine. A local client connection does not mean the engine is isolated from your network. We do not claim complete network isolation for this version.
+
+3. Internet connections and other applications
+Enabling AI or starting an AI test starts an approximately 3.3 GB HTTPS download from Hugging Face and its file delivery servers if the engine is missing. VCClient may download missing models and supporting weights from Hugging Face and a missing Whisper weight from openaipublic.azureedge.net. On engine startup it may contact Hugging Face again to refresh sample model catalogs, so network use is not limited to first installation. These requests retrieve files; the application does not attach microphone audio to them.
+
+Download servers can see your IP address, requested file URL, request time and HTTP client information. These services and delivery networks process information under their own policies and in the countries where they operate. The application does not require you to create an account or sign in to these services. Clicking external source or license links opens your default browser; the visited site&#39;s privacy and cookie practices then apply. Reading the built-in documents does not require internet access.
+
+The VB-CABLE installer is extracted from the application package into a local temporary folder and runs only for an installation/removal you initiate, with Windows administrator approval. Discord, games, streaming or recording applications receiving audio from VB-CABLE may record or transmit it over the internet according to your settings. Those applications control that processing.
+
+4. Information stored on your computer
+• %LOCALAPPDATA%\SesStudyosu\settings.json: microphone/output device names, close-to-tray and start-in-tray preferences.
+• appearance.json and background-*.png in the same folder: appearance preferences and a processed copy of your selected background image. Saving appearance attempts to delete the previously managed image, but does not delete your original file.
+• soundboard_config.xml in the application&#39;s executable folder: display names and full paths of sounds you add. The library does not copy the sound files themselves. Paths may contain your Windows user name.
+• The AI engine normally resides in %LOCALAPPDATA%\SesStudyosu\AiRuntime. Development/portable installations may instead use an AiRuntime folder near the application. The engine can retain model files, catalogs, stored_setting.json, temporary files, local TLS certificate/key files and logs. The application&#39;s ses-ai.log is cleared on the next write after it exceeds approximately 1 MB; separate engine logs such as vcclient.log are not guaranteed to share that limit or automatic deletion. Logs may contain device/GPU information, local paths, times and error details; they are not automatically sent to the publisher.
+• An interrupted AI download may leave a resumable .part file. Successful installation attempts to remove the download archive; previous incomplete installations may remain as backups.
+• Enabling startup with Windows writes the application path to the current user&#39;s Run registry key. Disabling it removes the application&#39;s entry.
+
+These local files provide your preferences and application features. The application does not add a separate encryption layer to them. Access depends on Windows file permissions and your device security. The AI package is verified with SHA-256 and the local client uses certificate matching. These measures do not resolve the engine network-access limitation described above.
+
+5. Controls, retention and deletion
+Use Stop for the main stream and the test&#39;s stop button for an independent test. Disabling AI does not necessarily stop the main classic microphone stream; use the main Stop button to stop it. With the default setting, the window&#39;s X button hides the application in the tray and audio may continue. Choose Exit application or Exit from the tray for a full exit. Windows microphone privacy settings control microphone access for desktop applications.
+
+Removing a library entry does not delete the original sound file. After fully exiting the application, delete soundboard_config.xml to clear the library list, and settings.json, appearance.json and background-*.png to clear the corresponding preferences. To remove the AI engine, models and logs, delete the AiRuntime folder in use while the application is closed; using AI again may require downloading it again. Uninstalling the application may not automatically remove these separate data files or the VB-CABLE driver. Use the driver&#39;s own removal process. Disable Windows startup in Settings before removing the application.
+
+There is no automatic deletion of all data after a fixed period. Except for the replacement/deletion behavior above, files remain until you delete them. The publisher does not hold an application account or audio archive for you on a server. If you voluntarily send information to the contact address, the information and your email address are processed through that communication channel to answer your request. Avoid sending unnecessary recordings or sensitive logs.
+
+6. Rights, children and changes
+Contact the address above about information, access, correction, deletion, objection or other rights available under applicable law. The publisher cannot remotely access information that exists only on your device; the local controls above apply to that information. The application has no separate feature aimed at collecting children&#39;s information; applicable age and permission rules must be followed. Changes in application behavior will be reflected in this policy and its date, with additional notice or permission where required by law.
+
+Microsoft Store and Windows may process information for their own services; this policy does not replace their policies.
+Hugging Face privacy: https://huggingface.co/privacy
+Microsoft privacy: https://www.microsoft.com/privacy/privacystatement
+</pre></main></body></html>

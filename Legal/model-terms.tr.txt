@@ -1,0 +1,217 @@
+AI Ses Modelleri — Ses Modeli Koşulları
+Son kontrol: 2026-10-11
+
+Sesler aynı dağıtıcıdan, wok000/vcclient_model deposundan kullanıcı seçimiyle ayrı ayrı indirilir. Model ağırlıkları ana uygulama ZIP'ine dahil edilmez. Seçim panelindeki kaynak bağlantısı her sesin kendi koşullarını açar.
+
+Katalog: Tsukuyomi-chan; Amitaro 40 kHz, Amitaro 16 kHz, Amitaro 16 kHz No F0; AISO Howatto, Kakkoii, Sarasara, Sittori ve Syakitto.
+
+1. Tsukuyomi-chan
+Ses verisi: Tsukuyomi-chan Corpus, CV. Rei Yumesaki (夢前黎).
+https://tyc.rei-yumesaki.net/material/corpus/
+Model koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/tsukuyomi-chan/terms_of_use.txt
+
+Bilgilendirme çevirisi — belirleyici metin aşağıda korunan özgün Japonca koşullar ve atıf yapılan hak sahibi koşullarıdır.
+
+• Model yalnızca VCClient üzerinde kullanılabilir.
+• Model ve dönüştürülmüş sesler insanları eleştirmek/saldırmak için kullanılamaz; bu tanım Tsukuyomi-chan karakter lisansına tabidir.
+• Belirli siyasi, dinî veya ideolojik görüşlere destek ya da karşıtlık çağrısı için kullanılamaz.
+• Güçlü/rahatsız edici ifadeler uygun izleyici/erişim ayrımı olmadan yayımlanamaz.
+• Başkalarına ikinci kullanım/yeniden kullanılabilir materyal izni verilecek şekilde dağıtılamaz. Özgün koşullar, dinlenmek üzere hazırlanmış eserlerin dağıtım veya satışını ayrı olarak mümkün sayar; diğer kısıtlamalar yine geçerlidir.
+
+Orijinal metindeki görsel atıfları da korunur: Tsukuyomi-chan © Rei Yumesaki; illüstrasyon: えみゃコーラ (Emya Cola). Uygulama bu metinle hak sahiplerinin onayını veya sınırsız kullanım iznini iddia etmez.
+
+2. Amitaro ve 16 kHz sürümleri
+Ses kaynağı: Amitaro / あみたろの声素材工房 — https://amitaro.net/
+Model koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro/terms_of_use.txt
+16 kHz sürümleri: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro16k/terms_of_use.txt
+Hak sahibinin koşulları: https://amitaro.net/voice/voice_rule/
+Özgün koşullar aşağıda korunmuştur. Bu modellerin koşulları Tsukuyomi-chan modelinden bağımsızdır.
+
+3. AISO kadın sesleri
+Model üreticisi: Tsuruno (鶴乃); dağıtıcı: Chihaya Jinja (ちはや神社).
+Kaynak açıklaması ve koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_chihaya_jinja/description.txt
+Howatto, Kakkoii, Sarasara, Sittori ve Syakitto modellerinin özgün açıklaması ve lisans bildirimi aşağıda korunmuştur.
+
+
+----- ORIGINAL JAPANESE TERMS / ORİJİNAL JAPONCA KOŞULLAR -----
+
+
+===== Tsukuyomi-chan-original.txt =====
+【音声】
+音声合成には、フリー素材キャラクター「つくよみちゃん」が無料公開している音声データを使用しています。
+
+■ つくよみちゃんコーパス（CV.夢前黎）
+https://tyc.rei-yumesaki.net/material/corpus/
+
+■ 利用規約
+本モデルは、VCClient上でのみ使用可能です。
+それ以外の利用規約は、つくよみちゃんコーパスの利用規約に準じ、次の目的で変換後の音声、ならびにモデルを使用することを禁止します。
+・人を批判・攻撃すること。（「批判・攻撃」の定義は、つくよみちゃんキャラクターライセンスに準じます）
+
+・特定の政治的立場・宗教・思想への賛同または反対を呼びかけること。
+
+・刺激の強い表現をゾーニングなしで公開すること。
+
+・他者に対して二次利用（素材としての利用）を許可する形で公開すること。
+※鑑賞用の作品として配布・販売していただくことは問題ございません。
+
+こちらもご確認ください。
+https://tyc.rei-yumesaki.net/material/corpus/#toc5
+
+【イラスト】
+
+このアプリでは、フリー素材キャラクター「つくよみちゃん」（© Rei Yumesaki）を使用しています。
+
+■つくよみちゃん公式サイト
+https://tyc.rei-yumesaki.net/
+
+■イラスト素材：えみゃコーラ様　（https://tyc.rei-yumesaki.net/material/illust/）
+■イラスト：えみゃコーラ
+
+
+===== Amitaro-original.txt =====
+音声合成には、あみたろの声素材工房(https://amitaro.net/)の音声を使用しました。
+
+■ 利用規約
+本モデルは、VCClient上でのみ使用可能です。
+本モデルのそれ以外の利用規約は、あみたろの声素材工房様の次の利用規約に準じます。
+あみたろの声素材やコーパス読み上げ音声を使って音声モデルを作ったり、ボイスチェンジャーや声質変換などを使用して、自分の声をあみたろの声に変換して使うのもOKです。
+
+ただしその場合は絶対に、あみたろ（もしくは小春音アミ）の声に声質変換していることを明記し、あみたろ（および小春音アミ）が話しているわけではないことが誰でもわかるようにしてください。
+また、あみたろの声で話す内容は声素材の利用規約の範囲内のみとし、センシティブな発言などはしないでください。
+
+こちらもご覧ください
+https://amitaro.net/voice/voice_rule/
+
+【イラスト】
+
+このアプリでは、あみたろの声素材工房(https://amitaro.net/)のイラストを利用しています。
+配布URL：https://bowlroll.net/file/258843
+イラスト：雪透ゆき
+
+
+===== Amitaro16k-original.txt =====
+音声合成には、あみたろの声素材工房(https://amitaro.net/)の音声を使用しました。
+
+■ 利用規約
+本モデルは、VCClient上でのみ使用可能です。
+本モデルのそれ以外の利用規約は、あみたろの声素材工房様の次の利用規約に準じます。
+あみたろの声素材やコーパス読み上げ音声を使って音声モデルを作ったり、ボイスチェンジャーや声質変換などを使用して、自分の声をあみたろの声に変換して使うのもOKです。
+
+ただしその場合は絶対に、あみたろ（もしくは小春音アミ）の声に声質変換していることを明記し、あみたろ（および小春音アミ）が話しているわけではないことが誰でもわかるようにしてください。
+また、あみたろの声で話す内容は声素材の利用規約の範囲内のみとし、センシティブな発言などはしないでください。
+
+こちらもご覧ください
+https://amitaro.net/voice/voice_rule/
+
+【イラスト】
+
+このアプリでは、あみたろの声素材工房(https://amitaro.net/)のイラストを利用しています。
+配布URL：https://bowlroll.net/file/258843
+イラスト：雪透ゆき
+
+
+===== AISO-original.txt =====
+【無料】RVC向け学習済みボイスモデルデータ「愛想良い系少女の声　5種風味パック」
+
+このデータはRVC(Realtime Voice Changer)で使用できる学習済み(.pth)ボイスモデルデータです。
+笑顔で話すのと、サンプル長(CHUNK:サイズ)768(2000ms(2.0秒近く)にすると綺麗に変換できる傾向があります。
+
+【随時更新!公式サポートnote記事】
+https://note.com/aisoiikei_turuno
+
+
+*内容
+
+　・モデルデータ 
+　　　V2ほわっと風味ver   → V2-AISO-HOWATTO.pth
+　　　V2かっこいい風味ver → V2-AISO-KAKKOII.pth
+　　　V2さらさら風味ver   → V2-AISO-SARASARA.pth
+　　　V2しっとり風味ver   → V2-AISO-SITTORI.pth
+　　　V2しゃきっと風味ver → V2-AISO-SYAKITTO.pth
+
+　・indexファイル（同ZIPフォルダ内にあります、もし使うときは、index rateを0.0に設定してください）
+　　　trained_IVF832_Flat_nprobe_1_v2.index
+
+　・各風味の女の子のイラストアイコン画像(MMVCなどで設定できます、画像のライセンスもMITでフリーです)
+
+　・各風味のサンプルボイス
+  
+　・各種設定解説メモ画像など
+
+
+*基本仕様
+
+　・ピッチ無しモデル
+　・indexファイルが無いと動かないタイプのクライアントソフトのために共用ダミーあり
+  ・index rateは0.0に設定してください
+　・RVC V2モデル
+　・サンプリングレート 40k(40000khz)
+　・サンプル長(CHUNK:サイズ)768(2000ms(2.0秒近くにしないと綺麗に喋れません))
+　
+  ・RVC本家クライアントの場合は、RVC0813 (8月13日)日バージョンをサポートしております
+
+*使用方法
+
+　・随時更新!使い方　公式サポートnote記事
+　　https://note.com/aisoiikei_turuno
+
+　・MMVC　clientでリアルタイムボイチェン
+　  MMVC v.1.5.3.13 にて動作確認をしております
+    使い方 https://www.google.com/search?q=mmvc+%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88+rvc+%E4%BD%BF%E3%81%84%E6%96%B9%E3%80%80%E7%A5%9EAI%E3%83%9C%E3%82%A4%E3%83%81%E3%82%A7%E3%83%B3+note
+    ダウンロードリンク
+    https://github.com/w-okada/voice-changer
+    
+
+
+　・RVC本家クライアントでリアルタイムボイチェン
+    当モデルはRVC本家は0813 (8月13日)日バージョンのみ対応です
+　　
+　　ダウンロード直リンク　RVC本家0813 (8月13日)日バージョン
+    →GPUがある方　https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC0813Nvidia.7z
+    →GPUの無い方　https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC0813AMD_Intel.7z
+　  RVC本家クライアントソフトのZIP解凍後、中身に入っている、go-realtime-gui.batをダブルクリックで実行してください→7zip解凍方法　https://www.google.co.jp/search?q=7zip+%E8%A7%A3%E5%87%8D
+　  非リアルタイム変換の場合はgo-web.batです
+
+　・RVC本家クライアントで非リアルタイム音声変換(動画制作でゆっくりボイスの様に声を入れる時用など)
+
+　・当配布ZIPファイルに設定例の解説画像があります
+
+
+*不具合・エラー対処一覧
+
+　・【重要】サンプル長(CHUNK:)という、AIがあなたの声を変換するために受け取る、最低の音声長さがありますが2.0秒以上にすると声が壊れにくいです
+    MMVCクライアントにおけるCHUNK:の設定項目での768(2048.0 ms)ぐらいです
+
+　・ボイチェンソフトでRVCモデル(.pth)やindexファイル(.index)のパスを指定したとき、
+　　そのファイルパス全体のどこかに半角英数字記号 以外が含まれているとエラーが起きる場合があります、
+　　半角英数字しかファイルパスに含まれない場所に移動してください
+
+　・青いRVC本家(非MMVC)ボイチェンソフトでマイクと再生スピーカーを選択した際、
+　　マイク名とスピーカー名の後ろにつく(MME)(ASIO)などの文字列は、マイクとスピーカーで同一に合わせる必要があります
+　　基本的には(MME)を選択してください
+
+　・反応閾値(gain)という、どれくらい小さい入力声を無視するかの設定値がありますが、
+　　普通の大きさの声でも切り捨てられてしまうことが多いので閾値は一番小さく設定が推奨です
+　　
+　・各種設定おすすめ　追加推論時間→長め、フェードインフェードアウト長→短め、音高算法(F0 Detピッチ検出方式)→harvestおすすめ
+　　
+
+*備考
+
+　・モデルデータ(キャラ)は10人の女性（2時間ずつ簡単なお喋りを録音）を元にマージ(融合)調整した非実在人物のものです。
+　　全員がAI化、NSFW、R18Gを含めた著作権関係の放棄をしてもらっています。
+
+　・modelfile／indexfile／各風味アイコンイラスト5枚／サンプル音声／以上4つのライセンスは
+　　MITライセンスです
+
+　　再配布でも、商用利用でも、どんなことにでも自由に無料でつかうことができます。
+
+　　MIT license
+　　https://choosealicense.com/licenses/mit/
+　　日本語
+　　https://licenses.opensource.jp/MIT/MIT.html
+
+　・モデルデータ製作者：鶴乃
+
+　・配布：ちはや神社 https://chihaya369.booth.pm/

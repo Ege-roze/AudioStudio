@@ -1,0 +1,33 @@
+AI Ses Modelleri — Ses Modeli Koşulları
+Son kontrol: {{DATE}}
+
+Sesler aynı dağıtıcıdan, wok000/vcclient_model deposundan kullanıcı seçimiyle ayrı ayrı indirilir. Model ağırlıkları ana uygulama ZIP'ine dahil edilmez. Seçim panelindeki kaynak bağlantısı her sesin kendi koşullarını açar.
+
+Katalog: Tsukuyomi-chan; Amitaro 40 kHz, Amitaro 16 kHz, Amitaro 16 kHz No F0; AISO Howatto, Kakkoii, Sarasara, Sittori ve Syakitto.
+
+1. Tsukuyomi-chan
+Ses verisi: Tsukuyomi-chan Corpus, CV. Rei Yumesaki (夢前黎).
+https://tyc.rei-yumesaki.net/material/corpus/
+Model koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/tsukuyomi-chan/terms_of_use.txt
+
+Bilgilendirme çevirisi — belirleyici metin aşağıda korunan özgün Japonca koşullar ve atıf yapılan hak sahibi koşullarıdır.
+
+• Model yalnızca VCClient üzerinde kullanılabilir.
+• Model ve dönüştürülmüş sesler insanları eleştirmek/saldırmak için kullanılamaz; bu tanım Tsukuyomi-chan karakter lisansına tabidir.
+• Belirli siyasi, dinî veya ideolojik görüşlere destek ya da karşıtlık çağrısı için kullanılamaz.
+• Güçlü/rahatsız edici ifadeler uygun izleyici/erişim ayrımı olmadan yayımlanamaz.
+• Başkalarına ikinci kullanım/yeniden kullanılabilir materyal izni verilecek şekilde dağıtılamaz. Özgün koşullar, dinlenmek üzere hazırlanmış eserlerin dağıtım veya satışını ayrı olarak mümkün sayar; diğer kısıtlamalar yine geçerlidir.
+
+Orijinal metindeki görsel atıfları da korunur: Tsukuyomi-chan © Rei Yumesaki; illüstrasyon: えみゃコーラ (Emya Cola). Uygulama bu metinle hak sahiplerinin onayını veya sınırsız kullanım iznini iddia etmez.
+
+2. Amitaro ve 16 kHz sürümleri
+Ses kaynağı: Amitaro / あみたろの声素材工房 — https://amitaro.net/
+Model koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro/terms_of_use.txt
+16 kHz sürümleri: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/amitaro16k/terms_of_use.txt
+Hak sahibinin koşulları: https://amitaro.net/voice/voice_rule/
+Özgün koşullar aşağıda korunmuştur. Bu modellerin koşulları Tsukuyomi-chan modelinden bağımsızdır.
+
+3. AISO kadın sesleri
+Model üreticisi: Tsuruno (鶴乃); dağıtıcı: Chihaya Jinja (ちはや神社).
+Kaynak açıklaması ve koşulları: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_chihaya_jinja/description.txt
+Howatto, Kakkoii, Sarasara, Sittori ve Syakitto modellerinin özgün açıklaması ve lisans bildirimi aşağıda korunmuştur.

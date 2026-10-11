@@ -1,0 +1,103 @@
+【無料】RVC向け学習済みボイスモデルデータ「愛想良い系少女の声　5種風味パック」
+
+このデータはRVC(Realtime Voice Changer)で使用できる学習済み(.pth)ボイスモデルデータです。
+笑顔で話すのと、サンプル長(CHUNK:サイズ)768(2000ms(2.0秒近く)にすると綺麗に変換できる傾向があります。
+
+【随時更新!公式サポートnote記事】
+https://note.com/aisoiikei_turuno
+
+
+*内容
+
+　・モデルデータ 
+　　　V2ほわっと風味ver   → V2-AISO-HOWATTO.pth
+　　　V2かっこいい風味ver → V2-AISO-KAKKOII.pth
+　　　V2さらさら風味ver   → V2-AISO-SARASARA.pth
+　　　V2しっとり風味ver   → V2-AISO-SITTORI.pth
+　　　V2しゃきっと風味ver → V2-AISO-SYAKITTO.pth
+
+　・indexファイル（同ZIPフォルダ内にあります、もし使うときは、index rateを0.0に設定してください）
+　　　trained_IVF832_Flat_nprobe_1_v2.index
+
+　・各風味の女の子のイラストアイコン画像(MMVCなどで設定できます、画像のライセンスもMITでフリーです)
+
+　・各風味のサンプルボイス
+  
+　・各種設定解説メモ画像など
+
+
+*基本仕様
+
+　・ピッチ無しモデル
+　・indexファイルが無いと動かないタイプのクライアントソフトのために共用ダミーあり
+  ・index rateは0.0に設定してください
+　・RVC V2モデル
+　・サンプリングレート 40k(40000khz)
+　・サンプル長(CHUNK:サイズ)768(2000ms(2.0秒近くにしないと綺麗に喋れません))
+　
+  ・RVC本家クライアントの場合は、RVC0813 (8月13日)日バージョンをサポートしております
+
+*使用方法
+
+　・随時更新!使い方　公式サポートnote記事
+　　https://note.com/aisoiikei_turuno
+
+　・MMVC　clientでリアルタイムボイチェン
+　  MMVC v.1.5.3.13 にて動作確認をしております
+    使い方 https://www.google.com/search?q=mmvc+%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88+rvc+%E4%BD%BF%E3%81%84%E6%96%B9%E3%80%80%E7%A5%9EAI%E3%83%9C%E3%82%A4%E3%83%81%E3%82%A7%E3%83%B3+note
+    ダウンロードリンク
+    https://github.com/w-okada/voice-changer
+    
+
+
+　・RVC本家クライアントでリアルタイムボイチェン
+    当モデルはRVC本家は0813 (8月13日)日バージョンのみ対応です
+　　
+　　ダウンロード直リンク　RVC本家0813 (8月13日)日バージョン
+    →GPUがある方　https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC0813Nvidia.7z
+    →GPUの無い方　https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC0813AMD_Intel.7z
+　  RVC本家クライアントソフトのZIP解凍後、中身に入っている、go-realtime-gui.batをダブルクリックで実行してください→7zip解凍方法　https://www.google.co.jp/search?q=7zip+%E8%A7%A3%E5%87%8D
+　  非リアルタイム変換の場合はgo-web.batです
+
+　・RVC本家クライアントで非リアルタイム音声変換(動画制作でゆっくりボイスの様に声を入れる時用など)
+
+　・当配布ZIPファイルに設定例の解説画像があります
+
+
+*不具合・エラー対処一覧
+
+　・【重要】サンプル長(CHUNK:)という、AIがあなたの声を変換するために受け取る、最低の音声長さがありますが2.0秒以上にすると声が壊れにくいです
+    MMVCクライアントにおけるCHUNK:の設定項目での768(2048.0 ms)ぐらいです
+
+　・ボイチェンソフトでRVCモデル(.pth)やindexファイル(.index)のパスを指定したとき、
+　　そのファイルパス全体のどこかに半角英数字記号 以外が含まれているとエラーが起きる場合があります、
+　　半角英数字しかファイルパスに含まれない場所に移動してください
+
+　・青いRVC本家(非MMVC)ボイチェンソフトでマイクと再生スピーカーを選択した際、
+　　マイク名とスピーカー名の後ろにつく(MME)(ASIO)などの文字列は、マイクとスピーカーで同一に合わせる必要があります
+　　基本的には(MME)を選択してください
+
+　・反応閾値(gain)という、どれくらい小さい入力声を無視するかの設定値がありますが、
+　　普通の大きさの声でも切り捨てられてしまうことが多いので閾値は一番小さく設定が推奨です
+　　
+　・各種設定おすすめ　追加推論時間→長め、フェードインフェードアウト長→短め、音高算法(F0 Detピッチ検出方式)→harvestおすすめ
+　　
+
+*備考
+
+　・モデルデータ(キャラ)は10人の女性（2時間ずつ簡単なお喋りを録音）を元にマージ(融合)調整した非実在人物のものです。
+　　全員がAI化、NSFW、R18Gを含めた著作権関係の放棄をしてもらっています。
+
+　・modelfile／indexfile／各風味アイコンイラスト5枚／サンプル音声／以上4つのライセンスは
+　　MITライセンスです
+
+　　再配布でも、商用利用でも、どんなことにでも自由に無料でつかうことができます。
+
+　　MIT license
+　　https://choosealicense.com/licenses/mit/
+　　日本語
+　　https://licenses.opensource.jp/MIT/MIT.html
+
+　・モデルデータ製作者：鶴乃
+
+　・配布：ちはや神社 https://chihaya369.booth.pm/

@@ -1,0 +1,38 @@
+# Build outputs and restored dependencies
+/bin/
+/obj/
+/packages/
+/dist/
+
+# Downloaded AI engine, model weights and local audio data
+/AiRuntime/
+*.part
+soundboard_config.xml
+*.pcm
+
+# Local IDE, agent and developer settings
+/.vs/
+/.vscode/
+/.idea/
+/.agents/
+/.codex/
+/.aws/
+/.claudiaideconfig
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+/tools/.local/
+
+# Test outputs and personal appearance previews
+/tests/previews/
+*.log
+/glass-preview.png
+
+# Credentials and local configuration
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key

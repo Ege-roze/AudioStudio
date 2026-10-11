@@ -1,0 +1,42 @@
+Audio Studio (Ses Stüdyosu) — Third-Party Notices
+{{DRAFT}}
+Last updated: {{DATE}}
+
+This notice distinguishes the main application from optional components. Copyright and trademarks belong to their respective owners. The application's Terms of Service do not restrict rights granted by the licenses below. Source code licenses and model licenses must not be assumed to be identical.
+
+1. NuGet components shipped with the main application
+NAudio, NAudio.Asio, NAudio.Core, NAudio.Midi, NAudio.Wasapi, NAudio.WinForms, NAudio.WinMM — 2.3.0 — MIT. Mark Heath and contributors. Package copyright notices use 2026, except NAudio.WinMM which uses 2023; the tagged source license states Copyright 2020 Mark Heath. The original license is reproduced below.
+Source: https://github.com/naudio/NAudio/tree/v2.3.0
+NAudio's SmbPitchShifter: Stephan M. Bernsee, C# conversion by Michael Knight; Wide Open License (WOL), reproduced below. The package name NAudio.Asio does not mean a separate Steinberg ASIO SDK is distributed; no separate ASIO SDK package was found in the reviewed main distribution.
+
+Microsoft.Win32.Registry 4.7.0; System.Buffers 4.5.1; System.Memory 4.5.5; System.Numerics.Vectors 4.5.0; System.Resources.Extensions 8.0.0; System.Runtime.CompilerServices.Unsafe 4.5.3; System.Security.AccessControl 4.7.0; System.Security.Principal.Windows 4.7.0 — MIT. Microsoft Corporation; .NET Foundation and contributors. Original .NET license texts follow.
+Sources: https://github.com/dotnet/corefx and https://github.com/dotnet/runtime/tree/v8.0.0
+
+.NET Framework 4.8, Windows Forms and Windows audio/Media Foundation APIs are system requirements. The main release archive contains no .NET Framework installer, Windows SDK or separate codec package. Microsoft's corresponding system/SDK terms apply.
+
+2. Embedded driver installer
+VB-CABLE Driver Pack45 (October 2024), VB-Audio / Vincent Burel. Donationware; all contributions are welcome. Source: https://www.vb-cable.com/
+Donations and distribution terms: https://vb-audio.com/Services/licensing.htm
+SHA-256: B950E39F01AF1D04EA623C8F6D8EB9B6EA5C477C637295FABF20631C85116BFB
+The original archive is embedded; installers, drivers and readme are unmodified. The vendor's standard-package distribution permission is subject to visible attribution and users being able to donate/pay for a license. It does not cover VB-CABLE A+B or C+D. Organizational distribution where users cannot identify the product and pay for licenses may require additional licensing. The original readme follows.
+
+3. Optional AI engine
+VCClient / w-okada voice-changer v.1.5.3.18a (Windows ONNX GPU/CUDA) is downloaded separately at the user's request. The main application's release ZIP does not include the engine executable or model weights. Audio Studio verifies its engine download against:
+SHA-256: D3B3458A3E7F9944336F446477D10A0987CA12FC97B2E6F5AB0AA75E50577CEB
+Source and MIT module notices: https://github.com/w-okada/voice-changer/tree/v.1.5.3.18a
+The engine's LICENSE-modules text is reproduced below. That MIT notice does not mean the entire downloaded package has a single MIT license.
+
+The engine bundle includes Python, PyTorch, ONNX Runtime, NumPy/OpenBLAS, CUDA/cuDNN components, libsndfile, Electron/Chromium/FFmpeg and other dependencies. Their original notices are in the engine directory's LICENSE, LICENSE-modules, LICENSE-BeatriceJVS, LICENSES.chromium.html, licenses under *.dist-info and files such as _soundfile_data/COPYING. The installer preserves archive contents. Copies of license texts found in the reviewed distribution are also supplied under Legal/licenses/runtime. That directory is not a relicensing or a promise that all corresponding source has been supplied.
+
+Components present in the bundle but not selected by this integration, such as BeatriceJVS and the separate Electron interface, retain their own terms. Redistributing the engine bundle separately requires review of every dependency, binary/SDK redistribution right and any GPL/LGPL corresponding-source obligations.
+
+4. AI models
+Tsukuyomi-chan (CV. Rei Yumesaki) has special terms; it is not MIT-licensed. The original Japanese terms and an informational translation are available in Voice Model Terms. The applicability of the VCClient-only restriction to this integration must be established before distribution.
+Terms: https://huggingface.co/wok000/vcclient_model/blob/main/rvc_v2_alpha/tsukuyomi-chan/terms_of_use.txt
+Data source: https://tyc.rei-yumesaki.net/material/corpus/
+
+The engine obtains ContentVec ONNX and RMVPE ONNX from wok000/weights_gpl. That repository labels its models GPLv3 and says an alternative license may be available by agreement with the developers. The GPLv3 text follows. We do not describe these models as MIT; this notice does not grant rights to redistribute or combine them with a closed-source product. Using a separate local process alone does not establish that all license obligations have been met.
+Source: https://huggingface.co/wok000/weights_gpl
+
+The engine can also download other missing supporting weights. Each model's conditions require separate review. Availability for download does not imply unrestricted distribution or use. The pre-release review separately identifies model/binary rights that remain unverified.
+

@@ -1,0 +1,397 @@
+{
+  "reviewDate": "2026-09-27",
+  "nuget": [
+    {
+      "id": "Microsoft.Win32.Registry",
+      "version": "4.7.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://github.com/dotnet/corefx",
+      "packageSha256": "fa3582c11a94fc9fe32dd40a0c59bddd67c80eb0cc5cc27df3851ebda40ca22f"
+    },
+    {
+      "id": "NAudio",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "50dabd32058a09c9c22b439deb7cf87a4e4d09d5b79e277393c4ba5a9404a55c"
+    },
+    {
+      "id": "NAudio.Asio",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "fda87cb402502213c90a7a4b8b892c4e0569b8f4df8c6729a3a74cffb8d06004"
+    },
+    {
+      "id": "NAudio.Core",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "2940c2dbeabe7736424549227de3d27f10100858be56920ab120e4621b7f320c"
+    },
+    {
+      "id": "NAudio.Midi",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "8e23c3517b4bd27b135ed00ac379234542c0b5d716eca7089b045eeaeecf7212"
+    },
+    {
+      "id": "NAudio.Wasapi",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "b80830deb834f01838d87ef6dc3d177dba5cde658259bb9820bd60194ee595f1"
+    },
+    {
+      "id": "NAudio.WinForms",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2026",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "207e063e4fe3e6b52933fb499627d8a1940143fe2630df9292ae33b92cc6a4b4"
+    },
+    {
+      "id": "NAudio.WinMM",
+      "version": "2.3.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Mark Heath 2023",
+      "projectUrl": "https://github.com/naudio/NAudio",
+      "packageSha256": "7273c88da53fe35d6fc7de024dbb5294e5063829ea9b575074d7ee2eab1eb6f1"
+    },
+    {
+      "id": "System.Buffers",
+      "version": "4.5.1",
+      "license": null,
+      "licenseUrl": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://dot.net/",
+      "packageSha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12"
+    },
+    {
+      "id": "System.Memory",
+      "version": "4.5.5",
+      "license": null,
+      "licenseUrl": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://dot.net/",
+      "packageSha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22"
+    },
+    {
+      "id": "System.Numerics.Vectors",
+      "version": "4.5.0",
+      "license": null,
+      "licenseUrl": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+      "copyright": "© Microsoft Corporation.  All rights reserved.",
+      "projectUrl": "https://dot.net/",
+      "packageSha256": "a9d49320581fda1b4f4be6212c68c01a22cdf228026099c20a8eabefcf90f9cf"
+    },
+    {
+      "id": "System.Resources.Extensions",
+      "version": "8.0.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://dot.net/",
+      "packageSha256": "e5d1d9751c2ad2d7506a7694e47c374084afa928a3486ad36b655d83089f1832"
+    },
+    {
+      "id": "System.Runtime.CompilerServices.Unsafe",
+      "version": "4.5.3",
+      "license": null,
+      "licenseUrl": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://dot.net/",
+      "packageSha256": "96764c52a44ee1161151e48ef07489f72047a851cb55b99e9f01d6908536d1a9"
+    },
+    {
+      "id": "System.Security.AccessControl",
+      "version": "4.7.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://github.com/dotnet/corefx",
+      "packageSha256": "ffd6423c81cb761ceaece5b850aa93b11d0ef778e31dde81446d524708071358"
+    },
+    {
+      "id": "System.Security.Principal.Windows",
+      "version": "4.7.0",
+      "license": "MIT",
+      "licenseUrl": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "projectUrl": "https://github.com/dotnet/corefx",
+      "packageSha256": "ad604cd94f0aab7ac475a6b530f65260e3a46ed306816c81f223eba48aa6a6a8"
+    }
+  ],
+  "optionalRuntimeLicenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d",
+      "bytes": 1096
+    },
+    {
+      "path": "LICENSE-BeatriceJVS",
+      "sha256": "121247d947d236d785589f7c3cad1f9650006492bcc9225f71ed15e85de089a7",
+      "bytes": 2698
+    },
+    {
+      "path": "LICENSE-modules",
+      "sha256": "7cdb6ac05d6f29e421a6631046423cadd3f9ca881ca1fd69ddf71b72822a1078",
+      "bytes": 6432
+    },
+    {
+      "path": "cryptography-41.0.1.dist-info\\LICENSE",
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+      "bytes": 197
+    },
+    {
+      "path": "cryptography-41.0.1.dist-info\\LICENSE.APACHE",
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+      "bytes": 11360
+    },
+    {
+      "path": "cryptography-41.0.1.dist-info\\LICENSE.BSD",
+      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+      "bytes": 1532
+    },
+    {
+      "path": "fairseq-0.12.2.dist-info\\LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086
+    },
+    {
+      "path": "filelock-3.9.0.dist-info\\licenses\\LICENSE",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "bytes": 1210
+    },
+    {
+      "path": "numpy-1.24.4.dist-info\\LICENSE.txt",
+      "sha256": "be0e909d681906de027743b19451a9be95c7605bc5e9f87f029825fa7efe4fcd",
+      "bytes": 48809
+    },
+    {
+      "path": "packaging-23.1.dist-info\\LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197
+    },
+    {
+      "path": "packaging-23.1.dist-info\\LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174
+    },
+    {
+      "path": "packaging-23.1.dist-info\\LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "bytes": 1344
+    },
+    {
+      "path": "pyworld-0.3.3.dist-info\\LICENSE",
+      "sha256": "705066462de18626fa19884f2b87354653bc74ac13962932da1857f606739b15",
+      "bytes": 1073
+    },
+    {
+      "path": "regex-2023.6.3.dist-info\\LICENSE.txt",
+      "sha256": "3d220c06594b826bbabf110312f60f385f99e57e529fa4b9e536f79091f8b4c7",
+      "bytes": 11792
+    },
+    {
+      "path": "requests-2.31.0.dist-info\\LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "bytes": 10142
+    },
+    {
+      "path": "resources\\app\\node_modules\\@messageformat\\core\\LICENSE",
+      "sha256": "107e3b3f9df880203d35e7ba1e013193468b12e5bde3a91eb737ac9f24231481",
+      "bytes": 1091
+    },
+    {
+      "path": "resources\\app\\node_modules\\@messageformat\\date-skeleton\\LICENSE",
+      "sha256": "107e3b3f9df880203d35e7ba1e013193468b12e5bde3a91eb737ac9f24231481",
+      "bytes": 1091
+    },
+    {
+      "path": "resources\\app\\node_modules\\@messageformat\\number-skeleton\\LICENSE",
+      "sha256": "107e3b3f9df880203d35e7ba1e013193468b12e5bde3a91eb737ac9f24231481",
+      "bytes": 1091
+    },
+    {
+      "path": "resources\\app\\node_modules\\@messageformat\\parser\\LICENSE",
+      "sha256": "107e3b3f9df880203d35e7ba1e013193468b12e5bde3a91eb737ac9f24231481",
+      "bytes": 1091
+    },
+    {
+      "path": "resources\\app\\node_modules\\@messageformat\\runtime\\LICENSE",
+      "sha256": "107e3b3f9df880203d35e7ba1e013193468b12e5bde3a91eb737ac9f24231481",
+      "bytes": 1091
+    },
+    {
+      "path": "resources\\app\\node_modules\\boolean\\LICENSE.txt",
+      "sha256": "8e4aa1aef825c37d6f74d4b867dccb7b059b66c75ecdedc74834e2f403568a27",
+      "bytes": 1086
+    },
+    {
+      "path": "resources\\app\\node_modules\\debug\\LICENSE",
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "bytes": 1139
+    },
+    {
+      "path": "resources\\app\\node_modules\\electron-squirrel-startup\\LICENSE",
+      "sha256": "9cf5de169b595cdae317551ef69a794b59fa3d1e151db4190d337fe08d13d5f8",
+      "bytes": 10255
+    },
+    {
+      "path": "resources\\app\\node_modules\\electron-squirrel-startup\\node_modules\\debug\\LICENSE",
+      "sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422",
+      "bytes": 1107
+    },
+    {
+      "path": "resources\\app\\node_modules\\fast-printf\\LICENSE",
+      "sha256": "ec864fdbd4761acdf64a8a5d26b47a5f2d5d568a5f36e43c9a95aa131e44e079",
+      "bytes": 1529
+    },
+    {
+      "path": "resources\\app\\node_modules\\i18n\\LICENSE",
+      "sha256": "936df1ea2e1386a8b04f5e18cbe9bd030817dd4ce350a8b7e19ad0fc345e859c",
+      "bytes": 1112
+    },
+    {
+      "path": "resources\\app\\node_modules\\make-plural\\LICENSE",
+      "sha256": "6cd1ebfce78b5faf27d154903b11a21245f6151b01f266ecf2d88882fe6d743f",
+      "bytes": 1754
+    },
+    {
+      "path": "resources\\app\\node_modules\\math-interval-parser\\LICENSE",
+      "sha256": "a067a4a88a55c9e93abc8e400e393fff3f6fe21a72844340e819df37f2534c52",
+      "bytes": 1138
+    },
+    {
+      "path": "resources\\app\\node_modules\\minimist\\LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073
+    },
+    {
+      "path": "resources\\app\\node_modules\\moo\\LICENSE",
+      "sha256": "db0b57e1acff55e7283e4de70069ef7c92524ce055bebb9a9795ebb9e97e6cb1",
+      "bytes": 1517
+    },
+    {
+      "path": "resources\\app\\node_modules\\mustache\\LICENSE",
+      "sha256": "e60b280838180a70cbb4b934f825c8119cdcf8912259ff4c6da20b284231c832",
+      "bytes": 1183
+    },
+    {
+      "path": "resources\\app\\node_modules\\safe-identifier\\LICENSE",
+      "sha256": "46067e478fa9622c51215b34fa6067230616e8452a0b9d84818c50499dede1ef",
+      "bytes": 750
+    },
+    {
+      "path": "torchcrepe-0.0.20.dist-info\\LICENSE",
+      "sha256": "2e1d0b22e64e0f0937cb213dbe45b0b02c97d278c4db8bae926ae031325b2417",
+      "bytes": 1090
+    },
+    {
+      "path": "tqdm-4.65.0.dist-info\\LICENCE",
+      "sha256": "817d843653b04523f8bc8ad171bc302489194442193bf14a6f754d6433b74941",
+      "bytes": 2006
+    },
+    {
+      "path": "websockets-11.0.3.dist-info\\LICENSE",
+      "sha256": "0f44514998aca209d3482d10204a8adf2aa4296ff157a36a5c0922f2280632d3",
+      "bytes": 1538
+    },
+    {
+      "path": "wheel-0.40.0.dist-info\\LICENSE.txt",
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "bytes": 1107
+    },
+    {
+      "path": "_soundfile_data\\COPYING",
+      "sha256": "ad01ea5cd2755f6048383c8d54c88459cd6fcb17757c5c8892f8c5ea060f6140",
+      "bytes": 26518
+    },
+    {
+      "path": "LICENSES.chromium.html",
+      "sha256": "6010d8dac37e4cec71683ed7588caa18683a9876733d23ee3fe3146e7027e109",
+      "bytes": 8245732
+    }
+  ],
+  "optionalRuntimeMetadata": [
+    {
+      "Name": "cryptography",
+      "Version": "41.0.1",
+      "License": "Apache-2.0 OR BSD-3-Clause"
+    },
+    {
+      "Name": "fairseq",
+      "Version": "0.12.2"
+    },
+    {
+      "Name": "filelock",
+      "Version": "3.9.0"
+    },
+    {
+      "Name": "numpy",
+      "Version": "1.24.4",
+      "License": "BSD-3-Clause"
+    },
+    {
+      "Name": "packaging",
+      "Version": "23.1"
+    },
+    {
+      "Name": "pyworld",
+      "Version": "0.3.3"
+    },
+    {
+      "Name": "regex",
+      "Version": "2023.6.3",
+      "License": "Apache Software License"
+    },
+    {
+      "Name": "requests",
+      "Version": "2.31.0",
+      "License": "Apache 2.0"
+    },
+    {
+      "Name": "tokenizers",
+      "Version": "0.13.3",
+      "License": "Apache License 2.0"
+    },
+    {
+      "Name": "torchcrepe",
+      "Version": "0.0.20",
+      "License": "MIT"
+    },
+    {
+      "Name": "tqdm",
+      "Version": "4.65.0",
+      "License": "MPLv2.0, MIT Licences"
+    },
+    {
+      "Name": "websockets",
+      "Version": "11.0.3",
+      "License": "BSD-3-Clause"
+    },
+    {
+      "Name": "wheel",
+      "Version": "0.40.0"
+    }
+  ],
+  "limitations": [
+    "Runtime/model redistribution rights are not fully cleared. See COMPLIANCE-REVIEW.md."
+  ]
+}

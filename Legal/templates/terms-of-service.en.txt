@@ -1,0 +1,33 @@
+Audio Studio (Ses Stüdyosu) — Terms of Service
+{{DRAFT}}
+Version: 1.0 • Last updated: {{DATE}}
+Publisher: {{PUBLISHER}}
+Contact: {{CONTACT}}
+
+1. Application and scope
+Audio Studio is a Windows desktop application for microphone processing, effects, playing selected sound files, routing audio to a virtual cable and optional local AI voice conversion. These terms govern its use. Read them and the Privacy Policy before using the application. If you do not agree, stop using and remove the application. This document does not create an account, subscription or additional payment obligation; the application has no account or in-app payment system. Any acquisition price and store transaction terms are shown separately in the relevant store listing.
+
+2. Permission and rights
+The publisher-owned application code and documentation are licensed under the MIT License included in the release and source repository. Its permissions to use, copy, modify and distribute the software apply without additional restrictions from these terms. Third-party software, models, drivers and content have their own licenses. These terms do not restrict rights granted by third-party licenses, open-source licenses or law; a component's own license controls in case of a conflict concerning that component. Third-Party Notices and Voice Model Terms are available in the application. No rights to other parties' trademarks, voices, images or content are transferred to you.
+
+3. Audio, models and your responsibilities
+You must have the necessary rights and permissions for audio and files you use, play or share. Do not use the application for unlawful impersonation, fraud, harassment or unauthorized disclosure of personal information. Respect people's rights, applicable law and the receiving platform's rules when recording or sharing. These terms do not give the publisher ownership of your sound files or outputs.
+
+The Tsukuyomi-chan model is restricted to use on VCClient. Additional conditions for the model and its outputs restrict criticism/attacks, advocacy for or against particular political, religious or ideological positions, publishing intense content without appropriate access separation, and making outputs available as material others may reuse. Read the complete controlling terms in Voice Model Terms and the rights holder's linked terms. Availability in this application does not imply their endorsement or unrestricted commercial-use permission.
+
+4. Requirements and third parties
+AI is optional and requires downloads, disk space, compatible 64-bit Windows and NVIDIA/CUDA for this distribution. Installation and model/catalog retrieval can use the internet. Quality, latency and device compatibility vary. Voice conversion does not guarantee anonymity or conceal your identity.
+
+VB-CABLE is a separate donationware product by VB-Audio / Vincent Burel. Its source is https://www.vb-cable.com/ and donations and license support are encouraged. Installing/removing the driver requires administrator approval and may require a restart. Product and distribution conditions are at https://vb-audio.com/Services/licensing.htm. This document does not change licenses for the driver, models or other third-party services.
+
+Consider the current AI engine network-access limitation explained in the Privacy Policy. Turn AI off when you do not need it. Use appropriate volume and headphones to avoid feedback or excessive sound levels. Closing the main window may hide the application in the tray by default; use Exit application to fully exit.
+
+5. Privacy
+The separate Privacy Policy explains microphone processing, local files, optional downloads, logs and deletion controls. These terms do not replace any separate personal-data permission required by law. Reading the built-in documents does not require the internet or an account.
+
+6. Availability and liability
+To the extent permitted by law, the application is provided as available. Uninterrupted or error-free operation, a particular voice result or compatibility with every device is not promised. The publisher's liability may be limited only to the extent permitted by applicable law. These terms do not remove mandatory consumer rights, statutory warranties or liability that cannot lawfully be excluded. Store acquisition, cancellation and refund rights remain subject to the relevant store's terms and mandatory law.
+
+7. Stopping use and changes
+You may stop using the application at any time. Removing it may not delete local preferences, AI downloads or the separate driver; follow the deletion steps in the Privacy Policy. Changes to features or terms will be reflected in this document's date/version. Future changes do not retroactively create new obligations for past use; additional notice and permission will be provided where required. Contact the address above with questions.
+
